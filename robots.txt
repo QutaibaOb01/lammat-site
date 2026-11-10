@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lammat.site/sitemap.xml

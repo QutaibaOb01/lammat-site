@@ -1,0 +1,72 @@
+لمّات — ألعاب السهرة بلهجتنا
+Third-party material used on this site, with thanks.
+
+CODE
+- qrcode-generator by Kazuhiko Arase — MIT License. Copyright (c) 2009 Kazuhiko Arase.
+- Lucide icons — ISC License. Copyright (c) Lucide Contributors 2022; portions Copyright (c) Cole Bemis 2013-2022 (Feather, MIT).
+
+PICTURES
+- Fluent Emoji 3D by Microsoft — MIT License. Copyright (c) Microsoft Corporation.
+- flag-icons by Panayiotis Lipiridis — MIT License. Copyright (c) 2013 Panayiotis Lipiridis.
+
+FONTS (served from this site)
+- Baloo Bhaijaan 2 — SIL Open Font License 1.1. Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2).
+- Rubik — SIL Open Font License 1.1. Copyright 2020 The Rubik Project Authors (https://github.com/googlefonts/rubik).
+  Font files packaged by Fontsource (MIT). OFL text: https://openfontlicense.org
+
+SOUNDS
+- Real recordings (snd/*.mp3, applause, laughter, clock): clips from the ESC-50 dataset (K. J. Piczak, 2015) whose
+  source recordings on Freesound are each dedicated to the public domain (CC0 1.0). Only CC0 clips are used.
+- Drums, tabla and bells: Sonic Pi samples — CC0 1.0.
+- Piano: Salamander Grand Piano V3 by Alexander Holm — Creative Commons Attribution 3.0 (CC BY 3.0),
+  https://archive.org/details/SalamanderGrandPianoV3 (MP3 package @audio-samples/piano-mp3-velocity8 by Jan Forst, MIT).
+
+DATA
+- Countries (names, capitals, borders, areas, codes): derived from world-countries by Mohammed Le Doze —
+  Open Database License (ODbL) 1.0. The country data in this site is a derived database and is likewise
+  available under the ODbL 1.0: https://opendatacommons.org/licenses/odbl/1-0/
+- Population: The World Bank, World Development Indicators — CC BY 4.0.
+- Surah metadata: quran-meta (MIT, Copyright (c) 2020 Quran-Center), built on Tanzil (tanzil.net).
+
+ROOMS
+- On this website, phones and the TV exchange encrypted messages through public MQTT brokers
+  (broker.emqx.io, broker.hivemq.com). Messages are sealed with AES-GCM using a key derived from the room code.
+  No account, no tracking, no analytics.
+
+PHOTOS (categories «ملاعب العالم» and «وين هاد بالأردن؟»)
+- Loaded from Wikimedia (upload.wikimedia.org). Photographer, licence and source page of each:
+  · Oh-Barcelona.com — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Camp_Nou_aerial.jpg
+  · Badefa — CC0 — https://commons.wikimedia.org/wiki/File:Estadio_Santiago_Bernab%C3%A9u_%E2%80%94_Real_Madrid_Juvenil_A_-_Santiago_Wanderers_Sub-20_(Intercontinental_Sub-20_2026)_%E2%80%94_R%C3%A9cord_de_asistencia_en_un_partido_de_juveniles.jpg
+  · Arne Müseler — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:2023_07_31_arne_mueseler_00060-Verbessert-RR_(53106651455).jpg
+  · Arne Müseler — CC BY-SA 3.0 de — https://commons.wikimedia.org/wiki/File:Liverpool_anfield_road_stadium.jpg
+  · Arne Müseler — CC BY-SA 3.0 de — https://commons.wikimedia.org/wiki/File:London_Wembley.jpg
+  · GhaziTwaissi — CC0 — https://commons.wikimedia.org/wiki/File:Inside_the_Amman_International_Stadium.jpg
+  · Arne Müseler — CC BY-SA 3.0 de — https://commons.wikimedia.org/wiki/File:Maracana_2022.jpg
+  · Prelvini — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Stadio_Meazza_2021_3.jpg
+  · Michael (2015) — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Allianz_Arena_2008-02-09.jpg
+  · Arne Müseler — CC BY-SA 3.0 de — https://commons.wikimedia.org/wiki/File:Signal_iduna_park_stadium_dortmund_4.jpg
+  · Arne Müseler — CC BY-SA 3.0 — https://en.wikipedia.org/wiki/File:Paris_Le_Parc_des_Princes.jpg
+  · Palácio do Planalto — CC BY 2.0 — https://en.wikipedia.org/wiki/File:17_11_2021_-_Visita_ao_Est%C3%A1dio_Lusail_(51688270420).jpg
+  · Arne Müseler — CC BY-SA 3.0 de — https://commons.wikimedia.org/wiki/File:London_Emirates_Stadium_arsenal.jpg
+  · Arne Müseler — CC BY-SA 3.0 de — https://commons.wikimedia.org/wiki/File:London_Stamford_Bridge.jpg
+  · Arne Müseler — CC BY-SA 3.0 de — https://commons.wikimedia.org/wiki/File:City_of_Manchester_Stadium_2023_cropped.jpg
+  · Kabhi2011 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Al_Bayt_Stadium.jpg
+  · على المزارقه — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:King_Fahd_Int._Stadium-_Opening_Arabian_Gulf_Cup_2014.jpg
+  · Crosskimo — ملكية عامة — https://commons.wikimedia.org/wiki/File:Panorma_Cairo_Stadium.jpg
+  · ProtoplasmaKid — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg
+  · ProtoplasmaKid — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Alberto_J._Armando_%22La_Bombonera%22_01.jpg
+  · Elwin594 — CC0 — https://commons.wikimedia.org/wiki/File:Atleti_vs_Villarreal_-_September_2025.jpg
+  · Sebleouf — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2021%E2%80%9322_UEFA_Women's_Champions_League_Final_in_Turin,_Italy_1.jpg
+  · Susanahajer — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Al_khazneh.jpg
+  · Azurfrog — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Al_Deir_Petra.JPG
+  · Daniel Case — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Mountain_in_Wadi_Rum,_Jordan.jpg
+  · Bernard Gagnon — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Roman_theater_of_Amman_01.jpg
+  · David Bjorgen — CC BY 2.5 — https://commons.wikimedia.org/wiki/File:Amman_Citadel.jpg
+  · Petar Milošević — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Oval_Plaza_(Forum_Romanum,_Gerasa_-_Jerash,_Jordan)_-_%D8%B3%D8%A7%D8%AD%D8%A9_%D8%A7%D9%84%D9%86%D8%AF%D9%88%D8%A9,_%D8%AC%D8%B1%D8%B4.jpg
+  · Hiking in Jordan — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Ajloun_Castle.jpg
+  · Berthold Werner — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Kerak_BW_1.JPG
+  · Bernard Gagnon — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Siq_al-Berid_04.jpg
+  · Producer — CC BY 2.5 — https://commons.wikimedia.org/wiki/File:Bethany_(5).JPG
+  · Bernard Gagnon — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Montreal_Castle_Visitor_center.jpg
+  · Daniel Case — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Qusayr_Amra.jpg
+  · Paul Palmer و Hermann Guthe — ملكية عامة — https://commons.wikimedia.org/wiki/File:Palmer_%26_Guthe_image_of_the_Medaba_map.jpg

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية | لمّات</title>
+<meta name="description" content="شو بتحفظ لمّات وشو بتبعت، وليش.">
+<link rel="canonical" href="https://lammat.site/privacy.html">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+@font-face{font-family:Rubik;src:url(assets/fonts/rubik-arabic.woff2) format("woff2");font-weight:300 900;font-display:swap}
+:root{--bg:#fff8ee;--ink:#2a1f5c;--muted:#5d5480;--card:#fff;--line:#eadfce;--accent:#7c4dff}
+@media (prefers-color-scheme:dark){:root{--bg:#17122c;--ink:#f3eefe;--muted:#bdb3dc;--card:#221a3f;--line:#352a5c;--accent:#a98bff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.75 Rubik,system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:28px 16px 56px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+header svg{width:56px;height:56px;flex:none}
+h1{font-size:1.9rem;line-height:1.2;margin:0}
+.upd{color:var(--muted);margin:0 0 22px;font-size:.95rem}
+section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin:12px 0}
+h2{font-size:1.15rem;margin:0 0 6px}
+p{margin:.35em 0}
+ul{margin:.3em 0;padding-inline-start:1.2em}
+a{color:var(--accent);font-weight:600}
+.lead{font-size:1.08rem}
+.en{direction:ltr;text-align:left;font-family:system-ui,sans-serif}
+.en h2{font-size:1.05rem}
+.back{display:inline-block;margin-top:18px;padding:.7em 1.4em;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none}
+</style></head>
+<body><main>
+<header><svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="lm-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b34f0"/><stop offset="1" stop-color="#25107a"/></linearGradient><radialGradient id="lm-s" cx=".25" cy=".1" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></radialGradient></defs><rect x="1.5" y="1.5" width="45" height="45" rx="13" fill="url(#lm-g)"/><rect x="1.5" y="1.5" width="45" height="45" rx="13" fill="url(#lm-s)"/><path d="M33 11V27.5A9 9 0 0 1 15 27.5" fill="none" stroke="#fff" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.5 12.5q0 4.4 3.5 4.4q3.5 0 3.5-3.74q0 3.74 3.5 3.74q3.5 0 3.5-4.4" fill="none" stroke="#ffd23f" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg><h1>سياسة الخصوصية</h1></header>
+<p class="upd">آخر تحديث: 10 تشرين الثاني 2026 · بتنطبق على موقع لمّات (lammat.site) وعلى تطبيق لمّات على Google Play.</p>
+
+<section><h2>باختصار</h2>
+<p class="lead">لمّات ما بتطلب حساب ولا تسجيل، وما فيها إعلانات ولا أدوات تتبّع. ما بنجمع معلومات عنك، وما بنبيع ولا بنشارك اشي.</p></section>
+
+<section><h2>اللي بينحفظ على جهازك بس</h2>
+<p>الاسم اللي بتكتبه للعبة، وإعداداتك، ونتائجك وسجلّك، والفئات اللي بتعملها بنفسك مع صورها وفيديوهاتها وتسجيلاتها، واللعبة اللي ما خلصت (عشان تقدر ترجع تكمّلها). كل هاد بينحفظ بذاكرة المتصفح على جهازك، وما بيطلع منه. بتقدر تمسحه كله من إعدادات المتصفح (مسح بيانات الموقع)، أو من إعدادات التطبيق على أندرويد.</p></section>
+
+<section><h2>عدّاد الزوار والألعاب</h2>
+<p>بنعرض عدد الناس اللي فتحوا لمّات، وعدد الألعاب اللي خلصت، وأي الألعاب بتنلعب أكثر. لهيك، أول مرة الجهاز بيفتح الموقع بنبعت «واحد زيادة»، وكل ما تخلص لعبة بنبعت «واحد زيادة» للعدد الكلي ولعدد هاي اللعبة (اسم اللعبة بس، مثلاً «طرنيب»)، لخدمة عدّ مجانية اسمها Abacus (abacus.jasoncameron.dev). ما بينبعث معها أي اشي عنك: لا اسمك ولا نتيجتك ولا مين لعب. ومثل أي طلب عالإنترنت، الخدمة بتشوف عنوان الـ IP تبع الجهاز.</p></section>
+
+<section><h2>اللعب من أكثر من جهاز (الغرف)</h2>
+<p>لما تلعبوا من تلفونات أو أجهزة مختلفة، الأجهزة بتتواصل عبر خوادم MQTT عامة (EMQX وHiveMQ). كل رسالة بتتشفّر (AES-GCM) بمفتاح مأخوذ من كود الغرفة قبل ما تطلع من الجهاز، فالخوادم بتنقل كلام مشفّر ما بتقدر تقراه. الرسائل فيها حركات اللعب، والأسماء اللي اخترتوها للعبة، والرسايل السريعة الجاهزة (إيموجي وعبارات) اللي بتبعتوها لبعض على الطاولة بس. وهالخوادم، مثل أي خادم، بتشوف عنوان الـ IP.</p></section>
+
+<section><h2>المحادثة الصوتية</h2>
+<p>بتشتغل بس إذا شغّلتها انت وسمحت باستعمال المايكروفون، وبتقدر تسكّرها بأي وقت. الصوت بيروح مباشرة من جهاز لجهاز (WebRTC) ومشفّر، وما بينسجّل ولا بينحفظ بأي مكان. عشان الأجهزة تلاقي بعض، بنستعمل خوادم STUN من Google وCloudflare، وهاي بتشوف عنوان الـ IP بس.</p></section>
+
+<section><h2>محتوى من مواقع ثانية</h2>
+<p>بعض الأسئلة فيها صور من ويكيميديا كومنز (upload.wikimedia.org) أو فيديوهات من يوتيوب (youtube-nocookie.com). لما تنعرض، جهازك بيحمّلها من هالمواقع، وبتنطبق عليها سياسات الخصوصية تبعتهم. وفي أزرار بتفتح بحث جوجل أو يوتيوب، بس إذا انت ضغطتها.</p></section>
+
+<section><h2>تطبيق أندرويد</h2>
+<p>تطبيق لمّات على Google Play بيفتح نفس الموقع (lammat.site) بمتصفح كروم على جهازك، بس بدون شريط المتصفح، فهاي السياسة نفسها بتنطبق عليه. التطبيق ما بيطلب غير الإنترنت. المايكروفون بيطلبه بس لما تشغّل المحادثة الصوتية، وبيسألك قبل.</p></section>
+
+<section><h2>الأعمار</h2>
+<p>لمّات معمولة للأعمار 13 سنة وفوق، ومش موجّهة للأطفال الأصغر.</p></section>
+
+<section><h2>التغييرات والتواصل</h2>
+<p>إذا تغيّرت هالسياسة، بنحدّث التاريخ اللي فوق. لأي سؤال عن الخصوصية: <a href="mailto:pthe417@gmail.com">pthe417@gmail.com</a></p></section>
+
+<section class="en" lang="en"><h2>Privacy policy (English summary)</h2>
+<p>Lammat (lammat.site and the Lammat app on Google Play, which opens the same site in Chrome without the browser bar) has no accounts, no ads and no tracking. We don't sell or share personal data.</p>
+<ul>
+<li><b>Stored on your device only:</b> your nickname, settings, results, a game in progress (so you can pick it up again) and the categories you make (with their photos, videos and voice clips). Clear them by clearing the site's or the app's data.</li>
+<li><b>Counters:</b> the first time a device opens the site, an anonymous "+1" is sent to the Abacus counting service (abacus.jasoncameron.dev); each time a game ends, a "+1" is sent to the total and to that game's own count (only the game's name, to show which games are played most). Nothing about you is sent (no name, score or player list); like any web request, the service sees the device's IP address.</li>
+<li><b>Playing across devices:</b> devices exchange game moves, the nicknames you chose and the ready-made quick messages (emoji and short phrases) sent at the table through public MQTT brokers (EMQX, HiveMQ). Every message is encrypted with AES-GCM using a key derived from the room code, so the brokers can't read it.</li>
+<li><b>Voice chat:</b> only if you turn it on and allow the microphone. Audio goes directly between devices over WebRTC, encrypted, and is never recorded or stored. STUN servers from Google and Cloudflare help devices connect and see only IP addresses.</li>
+<li><b>Third-party content:</b> some questions show images from Wikimedia Commons or YouTube videos (youtube-nocookie.com); those services' privacy policies apply when they load.</li>
+<li><b>Age:</b> Lammat is meant for ages 13 and up, not for younger children.</li>
+<li><b>Contact:</b> <a href="mailto:pthe417@gmail.com">pthe417@gmail.com</a>. Last updated 10 November 2026.</li>
+</ul></section>
+
+<a class="back" href="./">ارجعوا على لمّات</a>
+</main></body></html>
