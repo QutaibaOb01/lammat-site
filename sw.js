@@ -1,6 +1,6 @@
 /* لمّات service worker: keeps the game playable without a connection once it has been opened. */
-const V = 'lamma-ba9b7e82a2';
-const CORE = ["./", "assets/app.b741eee71c.js", "assets/app.24da1db3bb.css", "manifest.webmanifest", "icon.svg", "icon-192.png", "favicon-32.png", "assets/fonts/baloo-bhaijaan-2-arabic.woff2", "assets/fonts/baloo-bhaijaan-2-latin-ext.woff2", "assets/fonts/baloo-bhaijaan-2-latin.woff2", "assets/fonts/rubik-arabic.woff2", "assets/fonts/rubik-latin-ext.woff2", "assets/fonts/rubik-latin.woff2"];
+const V = 'lamma-e606bdc0e4';
+const CORE = ["./", "assets/app.61e01e8257.js", "assets/app.c4debbad59.css", "manifest.webmanifest", "icon.svg", "icon-192.png", "favicon-32.png", "assets/fonts/baloo-bhaijaan-2-arabic.woff2", "assets/fonts/baloo-bhaijaan-2-latin-ext.woff2", "assets/fonts/baloo-bhaijaan-2-latin.woff2", "assets/fonts/rubik-arabic.woff2", "assets/fonts/rubik-latin-ext.woff2", "assets/fonts/rubik-latin.woff2"];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(V).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => {
   e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k.startsWith('lamma-') && k !== V).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
@@ -28,7 +28,8 @@ self.addEventListener('fetch', (e) => {
   const req = e.request; if (req.method !== 'GET') return;
   const u = new URL(req.url); if (u.origin !== location.origin) return;
   if (req.mode === 'navigate') {
-    const root = u.pathname.endsWith('/') || u.pathname.endsWith('/index.html');
+    /* only the app's own page is the offline shell: the game pages (/tarneeb …) are ordinary pages */
+    const home = new URL('./', self.registration.scope).pathname, root = u.pathname === home || u.pathname === home + 'index.html';
     /* always ask the server (a 304 is cheap), so a new version shows up on the next load */
     e.respondWith(fetch(u.href, { cache: 'no-cache', credentials: 'same-origin' }).then((res) => {
       if (root && res.ok) { const copy = res.clone(); caches.open(V).then((c) => c.put('./', copy)); }
