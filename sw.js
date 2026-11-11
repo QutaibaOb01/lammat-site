@@ -1,6 +1,6 @@
 /* لمّات service worker: keeps the game playable without a connection once it has been opened. */
-const V = 'lamma-e606bdc0e4';
-const CORE = ["./", "assets/app.61e01e8257.js", "assets/app.c4debbad59.css", "manifest.webmanifest", "icon.svg", "icon-192.png", "favicon-32.png", "assets/fonts/baloo-bhaijaan-2-arabic.woff2", "assets/fonts/baloo-bhaijaan-2-latin-ext.woff2", "assets/fonts/baloo-bhaijaan-2-latin.woff2", "assets/fonts/rubik-arabic.woff2", "assets/fonts/rubik-latin-ext.woff2", "assets/fonts/rubik-latin.woff2"];
+const V = 'lamma-2fb6b2b9d1';
+const CORE = ["./", "assets/app.d898dd9817.js", "assets/app.d348871ccd.css", "manifest.webmanifest", "icon.svg", "icon-192.png", "favicon-32.png", "assets/fonts/baloo-bhaijaan-2-arabic.woff2", "assets/fonts/baloo-bhaijaan-2-latin-ext.woff2", "assets/fonts/baloo-bhaijaan-2-latin.woff2", "assets/fonts/rubik-arabic.woff2", "assets/fonts/rubik-latin-ext.woff2", "assets/fonts/rubik-latin.woff2"];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(V).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => {
   e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k.startsWith('lamma-') && k !== V).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
